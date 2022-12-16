@@ -1,0 +1,36 @@
+{
+  "name": "minabeautyconcept",
+  "version": "1.0.0",
+  "description": "Cuidado de rostro, servicios para la piel y uñas.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scs scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rofarbman/TERCERA-ENTREGA-DEL-PROYECTO-FINAL.git"
+  },
+  "keywords": [
+    "CARE",
+    "BEAUTY",
+    "SKIN",
+    "CARE",
+    "NAILS",
+    "SPA"
+  ],
+  "author": "Roberta Farbman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rofarbman/TERCERA-ENTREGA-DEL-PROYECTO-FINAL/issues"
+  },
+  "homepage": "http://minabeautyconcept.000webhostapp.com/",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,0 +1,8 @@
+.btn--mina {
+  color: map-get($color, field);
+  background: map-get($color, font-mina);
+  &:hover {
+    color: map-get($color, field);
+    background: map-get($color, btn--primary);
+  }
+} 

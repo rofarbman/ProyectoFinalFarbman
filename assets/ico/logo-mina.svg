@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 62" width="111" height="62">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <g transform="translate(10 10) rotate(0 45.5 21)"><text x="0" y="33" font-family="Helvetica, Segoe UI Emoji" font-size="36px" fill="#d6a735" text-anchor="start" style="white-space: pre;" direction="ltr">MINA</text></g></svg>

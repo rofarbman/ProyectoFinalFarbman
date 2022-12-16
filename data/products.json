@@ -1,0 +1,44 @@
+[
+  {
+    "id": 20220000,
+    "name": "Crema Antiage",
+    "description": "Ayuda a evitar el enjevecimiento prematuro de la piel.",
+    "price": 1050,
+    "thumbnail": "https://www.bioexel.com/f/203-g.jpg"
+  },
+  {
+    "id": 20220001,
+    "name": "Agua Micelar",
+    "description": "Sus micelas retiran rapida y confortablemente restos de maquillaje e impurezas.",
+    "price": 950,
+    "thumbnail": "https://www.bioexel.com/f/458g.jpg"
+  },
+  {
+    "id": 20220002,
+    "name": "Gel Cream",
+    "description": "Humecta, nutre las lineas del area del contorno de ojos.",
+    "price": 890,
+    "thumbnail": "https://www.bioexel.com/f/22322615-1.jpg"
+  },
+  {
+    "id": 20220003,
+    "name": "Instant Shine",
+    "description": "Otorga brillo, luminosidad y acondiciona en forma instantanea.",
+    "price": 1260,
+    "thumbnail": "https://www.bioexel.com/f/23588510-1.jpg"
+  },
+  {
+    "id": 20220004,
+    "name": "Gel Hidratante",
+    "description": "Hidrata y suaviza. Mejora la luminosidad y tersura epidermica.",
+    "price": 1000,
+    "thumbnail": "https://www.bioexel.com/f/863-g.jpg"
+  },
+  {
+    "id": 20220005,
+    "name": "Locion",
+    "description": "Los extractos vegetales de esta locion ayudan a descongestionar y tonificar.",
+    "price": 1450,
+    "thumbnail": "https://www.bioexel.com/f/87086023-1.jpeg"
+  }
+]

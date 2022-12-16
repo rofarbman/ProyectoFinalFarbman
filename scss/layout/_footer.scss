@@ -1,0 +1,5 @@
+.footer--bg {
+  background-color: map-get($color, field);
+  color: map-get($color, font-mina);
+  user-select: none;
+}

@@ -1,0 +1,15 @@
+.card--bg {
+  background: map-get($color, field);
+}
+
+/* servicios */
+
+.servicios__card {
+  @extend .card--bg;
+  border-radius: 1em;
+  &:hover{
+    box-shadow: 5px 5px 15px 0.1px #999;
+  }
+}
+
+

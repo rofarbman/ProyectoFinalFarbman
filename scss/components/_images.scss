@@ -1,0 +1,37 @@
+@import "../utilities/mixins";
+
+/* home */
+
+.home__img {
+  max-width: 20em;
+  max-height: 20em;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.home__img--animation {
+  transform:
+    perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
+  border-radius: 50%;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+
+  &:hover {
+    transform: translate3d(0px, 0px, -250px);
+  }
+}
+
+/* nosotros */
+
+.nosotros__img--circle {
+  transform: rotate(.054turn);
+  border-radius: 50%;
+}
+
+/* servicios */
+
+.servicios__img{
+  @include border;
+}

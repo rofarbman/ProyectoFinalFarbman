@@ -1,0 +1,8 @@
+.navbar__logo {
+  font-size:2rem;
+  color: map-get($color, mina);
+}
+
+.navbar--radius {
+  border-radius: 0 0 1em 1em;
+}

@@ -1,0 +1,32 @@
+@import "../utilities/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Julius Sans One',
+    sans-serif;
+  list-style: none;
+  font-weight: 900;
+  text-decoration: none;
+  color: map-get($color, font-mina)
+}
+
+h1 {
+  font-size: clamp(3rem, 2.5vw, 6rem);
+  color: map-get($color, mina);
+  user-select: none;
+}
+
+h2 {
+  font-size: clamp(2rem, 2.5vw, 1.8rem);
+  user-select: none;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+body {
+  background-image: map-get($color, gradient);
+}
